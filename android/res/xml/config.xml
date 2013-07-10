@@ -36,7 +36,7 @@
 
     <preference name="loglevel" value="DEBUG" />
     <preference name="splashscreen" value="splash" />
-      <preference name="disallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
     <!--
       <preference name="backgroundColor" value="0xFFF" />
       <preference name="loadUrlTimeoutValue" value="20000" />
@@ -55,6 +55,7 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
+
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
     </plugins>

@@ -1,5 +1,6 @@
 /Users/elsigh/src/reflow-timer/android/bin/Test.ap_ \
  : /Users/elsigh/src/reflow-timer/android/res/drawable/icon.png \
+/Users/elsigh/src/reflow-timer/android/res/drawable/splash.png \
 /Users/elsigh/src/reflow-timer/android/res/drawable-hdpi/ic_launcher.png \
 /Users/elsigh/src/reflow-timer/android/res/drawable-hdpi/icon.png \
 /Users/elsigh/src/reflow-timer/android/res/drawable-ldpi/ic_launcher.png \
@@ -12,6 +13,7 @@
 /Users/elsigh/src/reflow-timer/android/res/values/strings.xml \
 /Users/elsigh/src/reflow-timer/android/res/xml/config.xml \
 /Users/elsigh/src/reflow-timer/android/bin/res/drawable/icon.png \
+/Users/elsigh/src/reflow-timer/android/bin/res/drawable/splash.png \
 /Users/elsigh/src/reflow-timer/android/bin/res/drawable-hdpi/ic_launcher.png \
 /Users/elsigh/src/reflow-timer/android/bin/res/drawable-hdpi/icon.png \
 /Users/elsigh/src/reflow-timer/android/bin/res/drawable-ldpi/ic_launcher.png \

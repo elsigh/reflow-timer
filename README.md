@@ -4,7 +4,6 @@ reflow-timer
 A lil Phonegap app which will run an old-school attempt to test
 render timing in the webview.
 
-
 Inspired to gather some data by
 http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
 
@@ -50,3 +49,9 @@ Open it in a browser on your box
 ```bash
 file:///path/to/reflow-timer/android/assets/www/index.html
 ```
+
+
+This test is [lame|wrong|ugly|broken]
+-------------------------------------
+
+Submit a PR.
