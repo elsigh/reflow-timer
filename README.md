@@ -7,6 +7,10 @@ render timing in the webview.
 Inspired to gather some data by
 http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
 
+The code used here and thinking behind it at the time it was
+originally written:
+http://www.browserscope.org/reflow/about
+
 
 Android
 --------
