@@ -1,8 +1,8 @@
 reflow-timer
 ============
 
-A little app which will run an old-school attempt to test
-render timing.
+A lil Phonegap app which will run an old-school attempt to test
+render timing in the webview.
 
 Inspired to gather some data by
 http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
