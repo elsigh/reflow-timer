@@ -1,0 +1,180 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+  font: 8px Helvetica;
+}
+
+h1 {
+  font-size: 24px;
+}
+label {
+  display: block;
+}
+
+button {
+  font-size: 24px;
+  background: #3b97d1;
+  border: 1px solid #2881b8;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+button:active {
+  -webkit-box-shadow: inset 0 0 0.6em rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0.6em rgba(0, 0, 0, 0.2);
+}
+
+.rt-feedback {
+  font-size: 13px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left: 0;
+  right: 0;
+  color: #333;
+  z-index: 999;
+}
+
+.rt-feedback > div {
+  padding: 0.5em 1em;
+  margin: 0 auto;
+  display: inline-block;
+  background: #eee;
+  border: 1px solid #333;
+  -moz-border-radius-bottom: 4px;
+  -webkit-border-radius-bottom: 4px;
+  border-radius-bottom: 4px;
+  border-top: 0;
+  width: 60%;
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888;
+}
+
+.acid1-dl {
+  margin: 1em 0;
+  border: 0;
+  padding: 0;
+  min-height: 28em;
+}
+
+.acid1-dt {
+  background-color: rgb(204,0,0);
+  margin: 0;
+  padding: 0.2em;
+  height: 28em;
+  border: .5em solid black;
+  position: absolute;
+}
+.acid1-dd {
+  xfloat: right;
+  margin: 0 0 0 1em;
+  border: 0.5em solid black;
+  padding: 0.5em;
+  width: 33em;
+  height: 27em;
+}
+.acid1-ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.acid1-li {
+  display: block; /* i.e., suppress marker */
+  color: black;
+  height: 9em;
+  width: 4em;
+  margin: 0;
+  border: .5em solid black;
+  padding: 1em;
+  float: left;
+  background-color: #FC0;
+}
+.acid1-bar {
+  background-color: black;
+  color: white;
+  width: 41.17%; /* = 14em */
+  border: 0;
+  margin: 0 1em;
+}
+.acid1-baz {
+  margin: 1em 0;
+  border: 0;
+  padding: 0.2em;
+  width: 10em;
+  height: 10em;
+  background-color: black;
+  color: white;
+}
+.acid1-form {
+  margin: 0;
+  display: inline;
+}
+.acid1-p {
+  margin: 0;
+}
+.acid1-form-p {
+  line-height: 1.9;
+  margin: 0;
+}
+.acid1-bq {
+  margin: 1em 1em 1em 2em;
+  border-width: 1em 1.5em 2em .5em;
+  border-style: solid;
+  border-color: black;
+  padding: 1em 0;
+  width: 5em;
+  height: 9em;
+  float: left;
+  background-color: #FC0;
+  color: black;
+}
+.acid1-addr {
+  font-style: normal;
+}
+.acid1-h1 {
+  background-color: black;
+  color: white;
+  float: left;
+  margin: 1em 0;
+  border: 0;
+  padding: 1em;
+  width: 10em;
+  height: 10em;
+  font-weight: normal;
+  font-size: 1em;
+}
+.acid1-clear {
+  color:black;font-size:1em;line-height:1.3em;clear: both;padding-bottom:1em;border-bottom:3px solid #ccc;margin:0 0 1em 0;
+}
+
+

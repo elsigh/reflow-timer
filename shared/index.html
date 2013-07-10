@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Reflow Timer Browserscope Test</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Reflow Timer: Acid1 Browserscope Test</h1>
+      <button name="go">Run and send results to Browserscope</button>
+
+      <!--
+      <script>app = {};</script>
+      <script src="http://www.browserscope.org/user/tests/button?fn=app.runTests&amp;btn_text=Run%20the%20Test"></script>
+      -->
+
+      <dl class="acid1-dl">
+        <dt class="acid1-dt">
+         toggle
+        </dt>
+        <dd class="acid1-dd">
+          <ul class="acid1-ul">
+            <li class="acid1-li">
+             the way
+            </li>
+            <li class="acid1-li acid1-bar">
+              <p class="acid1-p">
+               the world ends
+              </p>
+              <form action="./" method="get" class="acid1-form">
+                <p class="acid1-form-p">
+                  bang
+                  <input type="radio" name="foo" value="off">
+                </p>
+                <p class="acid1-form-p">
+                  whimper
+                  <input type="radio" name="foo2" value="on">
+                </p>
+              </form>
+            </li>
+            <li class="acid1-li">
+             i grow old
+            </li>
+            <li class="acid1-li acid1-baz">
+             pluot?
+            </li>
+          </ul>
+          <blockquote class="acid1-bq">
+            <address class="acid1-addr">
+               bar maids,
+            </address>
+          </blockquote>
+          <h1 class="acid1-h1">
+             sing to me, erbarme dich
+          </h1>
+        </dd>
+      </dl>
+
+      <p class="acid1-clear">
+       This is a nonsensical document, but syntactically valid HTML 4.0. All 100%-conformant CSS1 agents should be able to render the document elements above this paragraph indistinguishably (to the pixel) from this
+        <a href="http://www.w3.org/Style/CSS/Test/CSS1/current/sec5526c.gif" target="_blank">reference rendering,</a>
+       (except font rasterization and form widgets). All discrepancies should be traceable to CSS1 implementation shortcomings.
+      </p>
+
+
+    </div>
+    <!--<script src="cordova.js"></script>-->
+    <script src="js/zepto-1.0.js"></script>
+    <script src="js/index.js"></script>
+
+
+    <script src="js/reflow_timer.js"></script>
+
+    <script>
+      Zepto(function($){
+        app.initialize();
+      });
+    </script>
+  </body>
+  </html>
