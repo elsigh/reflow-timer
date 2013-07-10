@@ -23,39 +23,47 @@ app.initialize = function() {
 
   $goBtn = $('button[name="go"]');
   $goBtn.on('click', app.runTests);
-
-  app.reflowTimer = new ReflowTimer($('.app').get(0));
-  app.reflowTimer.renderResults = true;
-  app.reflowTimer.onTestsComplete = function(results) {
-    console.log('reflowTimer.onTestsComplete results: ' +
-        JSON.stringify(results));
-    app.results = results;
-    window['_bTestResults'] = results;
-    $goBtn.show();
-    $('.rt-feedback div').append($('<p>').html(app.syntaxHighlight(results)));
-
-    (function(document) {
-      var testKey = 'agt1YS1wcm9maWxlcnINCxIEVGVzdBjBwpAVDA';
-      var newScript = document.createElement('script'),
-          firstScript = document.getElementsByTagName('script')[0];
-      newScript.src = 'http://www.browserscope.org/user/beacon/' + testKey;
-      newScript.src += '?callback=app.allDone';
-      firstScript.parentNode.insertBefore(newScript, firstScript);
-    }(document));
-  };
 };
 
+
+/** Do it */
 app.runTests = function() {
   $goBtn = $('#bs-run');
   $('.rt-feedback').remove();
   app.results = null;
   window['_bTestResults'] = null;
   $goBtn.hide();
+
+  app.reflowTimer = new ReflowTimer($('.app').get(0));
+  app.reflowTimer.renderResults = true;
+  app.reflowTimer.onTestsComplete = app.onTestsComplete;
   app.reflowTimer.run();
 };
 
 
+/** hi */
+app.onTestsComplete = function(results) {
+  console.log('app.onTestsComplete results: ' +
+              JSON.stringify(results));
+  app.results = results;
+  window['_bTestResults'] = results;
+  $goBtn.show();
+  $('.rt-feedback div').append($('<p>').html(app.syntaxHighlight(results)));
+
+  (function(document) {
+    var testKey = 'agt1YS1wcm9maWxlcnINCxIEVGVzdBjBwpAVDA';
+    var newScript = document.createElement('script'),
+        firstScript = document.getElementsByTagName('script')[0];
+    newScript.src = 'http://www.browserscope.org/user/beacon/' + testKey;
+    newScript.src += '?callback=app.allDone';
+    firstScript.parentNode.insertBefore(newScript, firstScript);
+  }(document));
+};
+
+
+/** hi */
 app.allDone = function() {
+  console.log('Browserscope beacon complete.');
 };
 
 
