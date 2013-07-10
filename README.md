@@ -32,3 +32,10 @@ open ReflowTimer.xcodeproj
 
 You should know what to do from there =)
 
+
+Open it in a browser on your box
+---------------------------------
+
+```bash
+file:///path/to/reflow-timer/android/assets/www/index.html
+```
