@@ -2,7 +2,7 @@ reflow-timer
 ============
 
 A lil Phonegap app which will run an old-school attempt to test
-render timing in the webview.
+render timing in the webview. Test page is just a nasty DOM.
 
 Inspired to gather some data by
 http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
@@ -15,7 +15,7 @@ http://www.browserscope.org/reflow/about
 Latest Test Results
 --------------------
 
-http://www.browserscope.org/browse?category=usertest_agt1YS1wcm9maWxlcnINCxIEVGVzdBjBwpAVDA
+http://www.browserscope.org/browse?category=usertest_agt1YS1wcm9maWxlcnINCxIEVGVzdBiExJIVDA
 
 
 Android
