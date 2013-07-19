@@ -58,7 +58,7 @@ app.onTestsComplete = function(results) {
   $('.rt-feedback div').append($('<p>').html(app.syntaxHighlight(results)));
 
   (function(document) {
-    var testKey = 'agt1YS1wcm9maWxlcnINCxIEVGVzdBiExJIVDA';
+    var testKey = document.getElementById('bs-test-key').value;
     var newScript = document.createElement('script'),
         firstScript = document.getElementsByTagName('script')[0];
     newScript.src = 'http://www.browserscope.org/user/beacon/' + testKey;

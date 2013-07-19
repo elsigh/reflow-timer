@@ -26,7 +26,9 @@
 /Users/elsigh/src/reflow-timer/android/assets/www/cordova.js \
 /Users/elsigh/src/reflow-timer/android/assets/www/css \
 /Users/elsigh/src/reflow-timer/android/assets/www/img \
-/Users/elsigh/src/reflow-timer/android/assets/www/index.html \
+/Users/elsigh/src/reflow-timer/android/assets/www/index_css.html \
+/Users/elsigh/src/reflow-timer/android/assets/www/index_inline_css.html \
+/Users/elsigh/src/reflow-timer/android/assets/www/index_no_css.html \
 /Users/elsigh/src/reflow-timer/android/assets/www/js \
 /Users/elsigh/src/reflow-timer/android/assets/www/res \
 /Users/elsigh/src/reflow-timer/android/assets/www/css/index.css \

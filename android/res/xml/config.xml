@@ -32,7 +32,7 @@
 
     <access origin="*"/>
 
-    <content src="index.html" />
+    <content src="index_css.html" />
 
     <preference name="loglevel" value="DEBUG" />
     <preference name="splashscreen" value="splash" />

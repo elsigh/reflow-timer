@@ -1,0 +1,20 @@
+application: reflow-timer-test
+version: 1
+runtime: python27
+threadsafe: true
+api_version: 1
+default_expiration: "0d 0h"
+
+skip_files:
+- .*android.*
+- .*ios.*
+
+builtins:
+- deferred: on
+- remote_api: on
+
+handlers:
+# General static content directory.
+- url: /shared
+  static_dir: shared
+  expiration: "3650d"
